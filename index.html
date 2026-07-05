@@ -1,1 +1,315 @@
-cmpv engineering
+<!DOCTYPE html>
+<html lang="en" class="bg-page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CMPV Engineering — Civil Engineering &amp; Construction</title>
+    <meta
+      name="description"
+      content="CMPV Engineering designs and delivers durable civil works — water systems, pipelines, treatment plants, pools, and structures — with precision, safety, and craftsmanship."
+    />
+    <meta name="theme-color" content="#f4efe6" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="top">
+    <!-- Header -->
+    <header class="site-header" id="siteHeader">
+      <div class="container header-inner">
+        <a href="#top" class="brand" aria-label="CMPV Engineering home">
+          <span class="brand-mark">C</span>
+          <span class="brand-name">CMPV Engineering</span>
+        </a>
+
+        <nav class="nav-desktop" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#work">Our Work</a>
+          <a href="#contact">Contact</a>
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+        </nav>
+
+        <button
+          type="button"
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobileNav"
+        >
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+      </div>
+
+      <nav class="nav-mobile" id="mobileNav" aria-label="Mobile">
+        <a href="#about">About</a>
+        <a href="#work">Our Work</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn-primary btn-block">Get in touch</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-copy">
+            <span class="eyebrow-pill">Civil Engineering &amp; Construction</span>
+            <h1>Building the infrastructure that moves communities forward.</h1>
+            <p class="lead">
+              CMPV Engineering designs and delivers durable civil works, water
+              supply systems, pipelines, treatment plants, swimming pools, and
+              structures with precision, safety, and craftsmanship at every
+              stage.
+            </p>
+            <div class="hero-actions">
+              <a href="#work" class="btn btn-primary">See our work</a>
+              <a href="#contact" class="btn btn-outline">Contact us</a>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <img
+              src="images/swimming-pool-dusk.jpg"
+              alt="Completed swimming pool complex at dusk with diving platform, built by CMPV Engineering"
+              width="1280"
+              height="960"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section section-alt">
+        <div class="container">
+          <div class="two-col">
+            <div>
+              <span class="eyebrow">About us</span>
+              <h2>Engineering trust into every structure we build.</h2>
+            </div>
+            <div class="prose">
+              <p>
+                CMPV Engineering partners with government agencies and private
+                developers to deliver civil works that stand the test of time.
+                Our team combines rigorous engineering with hands-on
+                construction expertise across Madhya Pradesh and beyond.
+              </p>
+              <p>
+                We believe great infrastructure is quiet — it simply works, day
+                after day. That philosophy guides how we plan, build, and hand
+                over every project.
+              </p>
+            </div>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-value">15+</div>
+              <div class="stat-label">Years of experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">120+</div>
+              <div class="stat-label">Projects delivered</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">50+</div>
+              <div class="stat-label">Villages &amp; towns served</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">100%</div>
+              <div class="stat-label">Safety commitment</div>
+            </div>
+          </div>
+
+          <div class="capabilities">
+            <div class="capability">
+              <h3>Water Supply &amp; Pipelines</h3>
+              <p>
+                Rural and urban water supply schemes, pipe-laying, and
+                distribution networks engineered for reliable delivery.
+              </p>
+            </div>
+            <div class="capability">
+              <h3>Treatment Plants &amp; Tanks</h3>
+              <p>
+                Water and sewage treatment facilities, overhead tanks, and
+                storage reservoirs built to specification.
+              </p>
+            </div>
+            <div class="capability">
+              <h3>Pools &amp; Public Facilities</h3>
+              <p>
+                Swimming pools and community facilities delivered with precise
+                finishing and durable construction.
+              </p>
+            </div>
+            <div class="capability">
+              <h3>Structures &amp; Foundations</h3>
+              <p>
+                RCC structures, foundations, and reinforcement works executed
+                with strict quality and safety control.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Work -->
+      <section id="work" class="section">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Our work</span>
+            <h2>Projects built to endure.</h2>
+            <p class="lead">
+              A selection of civil engineering work delivered across water
+              supply, pipelines, treatment plants, and public facilities.
+            </p>
+          </div>
+
+          <div
+            class="carousel"
+            id="carousel"
+            aria-roledescription="carousel"
+            aria-label="Featured projects"
+          >
+            <div class="carousel-viewport">
+              <ul class="carousel-track" id="carouselTrack">
+                <li class="slide">
+                  <img src="images/swimming-pool-dusk.jpg" alt="Swimming pool complex at dusk with diving platform" loading="lazy" />
+                  <div class="slide-caption">
+                    <span class="slide-tag">Public Facilities</span>
+                    <h3>Swimming Pool Complex</h3>
+                    <p>A completed aquatic facility with diving platform and landscaped surroundings.</p>
+                  </div>
+                </li>
+                <li class="slide">
+                  <img src="images/water-treatment-construction.jpg" alt="Water treatment plant under construction, aerial view, Sagar" loading="lazy" />
+                  <div class="slide-caption">
+                    <span class="slide-tag">Treatment Plants</span>
+                    <h3>Water Treatment Plant — Sagar</h3>
+                    <p>Circular treatment tanks and site structures under construction.</p>
+                  </div>
+                </li>
+                <li class="slide">
+                  <img src="images/pipeline-rampur.jpg" alt="Underground pipeline being laid in a trench, Rampur Naikin" loading="lazy" />
+                  <div class="slide-caption">
+                    <span class="slide-tag">Water Supply</span>
+                    <h3>Pipeline Works — Rampur Naikin</h3>
+                    <p>Underground water supply pipeline laid through built-up areas.</p>
+                  </div>
+                </li>
+                <li class="slide">
+                  <img src="images/foundation-mau.jpg" alt="Engineers inspecting a rebar reinforcement cage and foundation, Mau" loading="lazy" />
+                  <div class="slide-caption">
+                    <span class="slide-tag">Structures</span>
+                    <h3>Foundation &amp; RCC Works — Mau</h3>
+                    <p>Reinforcement and foundation works under close engineering supervision.</p>
+                  </div>
+                </li>
+                <li class="slide">
+                  <img src="images/water-plant-sagar.jpg" alt="Water plant with circular tank and site buildings, Sagar" loading="lazy" />
+                  <div class="slide-caption">
+                    <span class="slide-tag">Treatment Plants</span>
+                    <h3>Water Facility — Sagar</h3>
+                    <p>Storage tank, treatment units, and operations buildings nearing completion.</p>
+                  </div>
+                </li>
+                <li class="slide">
+                  <img src="images/pool-piping.jpg" alt="PVC piping laid along a pool embankment under construction" loading="lazy" />
+                  <div class="slide-caption">
+                    <span class="slide-tag">Public Facilities</span>
+                    <h3>Pool Piping &amp; Filtration</h3>
+                    <p>Filtration and circulation piping installed along a pool structure.</p>
+                  </div>
+                </li>
+                <li class="slide">
+                  <img src="images/pipeline-sidhi.jpg" alt="Pipeline trench running through a village lane, Sidhi" loading="lazy" />
+                  <div class="slide-caption">
+                    <span class="slide-tag">Water Supply</span>
+                    <h3>Village Pipeline — Sidhi</h3>
+                    <p>Distribution pipeline laid to connect households across the village.</p>
+                  </div>
+                </li>
+                <li class="slide">
+                  <img src="images/swimming-pool-lanes.jpg" alt="Completed swimming pool with lane markers at dusk" loading="lazy" />
+                  <div class="slide-caption">
+                    <span class="slide-tag">Public Facilities</span>
+                    <h3>Competition Pool</h3>
+                    <p>A finished lane pool ready for community and competitive use.</p>
+                  </div>
+                </li>
+                <li class="slide">
+                  <img src="images/water-main-sasa.jpg" alt="Large steel water main being laid in a deep trench, Sasa" loading="lazy" />
+                  <div class="slide-caption">
+                    <span class="slide-tag">Water Supply</span>
+                    <h3>Trunk Water Main — Sasa</h3>
+                    <p>Large-diameter steel main installed with excavation and shoring.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <button class="carousel-btn carousel-prev" id="carouselPrev" type="button" aria-label="Previous project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 18l-6-6 6-6" /></svg>
+            </button>
+            <button class="carousel-btn carousel-next" id="carouselNext" type="button" aria-label="Next project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6" /></svg>
+            </button>
+
+            <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Choose project"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="section section-alt">
+        <div class="container">
+          <div class="two-col">
+            <div>
+              <span class="eyebrow">Contact us</span>
+              <h2>Let&apos;s build something that lasts.</h2>
+              <p class="lead">
+                Have a project in mind or need an engineering partner? Reach out
+                and our team will get back to you promptly.
+              </p>
+            </div>
+
+            <div class="contact-grid">
+              <a class="contact-card" href="mailto:info@cmpvengineering.com">
+                <span class="contact-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" /><path d="M22 6l-10 7L2 6" /></svg>
+                </span>
+                <div>
+                  <div class="contact-label">Email</div>
+                  <div class="contact-value">info@cmpvengineering.com</div>
+                </div>
+              </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="brand">
+          <span class="brand-mark brand-mark-sm">C</span>
+          <span class="brand-name">CMPV Engineering</span>
+        </div>
+        <p class="footer-copy">
+          &copy; <span id="year"></span> CMPV Engineering. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
